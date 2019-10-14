@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <DataBase>
+        <init>
+            <string name="s1">Link is in trouble.</string>
+        </init>
+        <!--Comum a modifyHeaderInd-->
+        <modifyHeader>
+            <string name="s1">Warning: Problems in the past parameters!</string>
+        </modifyHeader>
+        <dropColumn>
+            <string name="s1">Do you want to save this operation? Y/N </string>
+            <string name="s2">No column changed</string>
+        </dropColumn>
+        <dropLines>
+            <string name="s1">Do you want to save this operation? Y/N </string>
+            <string name="s2">No rows changed</string>
+        </dropLines>
+        <Legend>
+            <string name="s1">Legend</string>
+        </Legend>
+        <saveCsv>
+            <string name="s1">Error in operation!!!</string>
+        </saveCsv>
+    </DataBase>
+    <CommonModel>
+        <defineTest>
+            <string name="s1">Ponse invalidate, please enter a number between 0 and 1.</string>
+        </defineTest>
+        <generalReport>
+            <string name="s1">General report:</string>
+            <string name="s2">======================================================</string>
+        </generalReport>
+        <matrixConfusion>
+            <string name="s1">Matrix of confusion : </string>
+            <string name="s2">=========================</string>
+        </matrixConfusion>
+    </CommonModel>
+    <ModelNB>
+        <defineModel>
+            <string name="s1">Past value does not match any of the 4 possible values !!!</string>
+        </defineModel>
+        <trainModel>
+            <string name="s1">Ponse invalidate, please enter a number between 0 and 1.</string>
+        </trainModel>      
+        <errorModel>
+            <string name="s1">Errors : </string>
+        </errorModel>
+        <errorModelInd>
+            <string name="s1">Errors in model</string>
+            <string name="s2"> :</string>
+            <string name="s3">Errors in model :</string>
+        </errorModelInd>
+        <compareModel>
+            <string name="s1">           Estimate of result for each algorithm of naive bayes</string>
+            <string name="bar">=====================================================================================</string>
+            <string name="s2">N°     GaussianNB</string>
+            <string name="s3">BernoulliNB</string>
+            <string name="s4">MultinomialNB</string>
+            <string name="s5">ComplementNB</string>
+            <string name="s6">target</string>
+            <string name="space">     </string>
+            <string name="s7">ERRORS:     </string>
+            <string name="s8">* Test Vector Size: </string> 
+            <string name="s9">positions.</string>
+            <string name="s10">Past value is inconsistent with the required type, please pass a whole number !!!</string>
+            <string name="s11">The last range does not belong to the test list, please enter a value between 0 and</string>
+        </compareModel>
+        <probabilitySucessModel>
+            <string name="s1">Probability of model correctness</string>
+            <string name="s2">Probability of model correctness:</string>
+        </probabilitySucessModel>
+        <probabilitySucessModelInd>
+            <string name="s1">Chance of model hit</string>
+            <string name="s2">The last range does not belong to the test list, please enter a value between 0 and </string>
+            <string name="s3">The past interval has inconsistencies or does not exist in the list !!!</string>
+            <string name="s4">Chance of model hit: </string>
+        </probabilitySucessModelInd>
+        <generalReport>
+            <string name="s1">General report</string>
+        </generalReport>
+        <matrixConfusion>
+            <string name="s1">Matrix of confusion</string>
+        </matrixConfusion>
+    </ModelNB>
+</resources>

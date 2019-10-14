@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <DataBase>
+        <init>
+            <string name="s1">Link está com problemas.</string>
+        </init>
+        <!--Comum a modifyHeaderInd-->
+        <modifyHeader>
+            <string name="s1">Aviso: Problemas nos parâmetros anteriores!</string>
+        </modifyHeader>
+        <dropColumn>
+            <string name="s1">Você quer salvar esta operação? Y/N </string>
+            <string name="s2">Nenhuma coluna alterada</string>
+        </dropColumn>
+        <dropLines>
+            <string name="s1">Você quer salvar esta operação? Y/N </string>
+            <string name="s2">Nenhuma linha alterada</string>
+        </dropLines>
+        <Legend>
+            <string name="s1">Legenda</string>
+        </Legend>
+        <saveCsv>
+            <string name="s1">Erro na operação!!!</string>
+        </saveCsv>
+    </DataBase>
+    <CommonModel>
+        <defineTest>
+            <string name="s1">Posição inválida, digite um número entre 0 e 1.</string>
+        </defineTest>
+        <generalReport>
+            <string name="s1">Relatório geral:</string>
+            <string name="s2">======================================================</string>
+        </generalReport>
+        <matrixConfusion>
+            <string name="s1">Matrix de confusão : </string>
+            <string name="s2">=========================</string>
+        </matrixConfusion>
+    </CommonModel>
+    <ModelNB>
+        <defineModel>
+            <string name="s1">O valor passado não corresponde a nenhum dos 4 valores possíveis !!!</string>
+        </defineModel>
+        <trainModel>
+            <string name="s1">Posição inválida, digite um número entre 0 e 1.</string>
+        </trainModel>      
+        <errorModel>
+            <string name="s1">Erros : </string>
+        </errorModel>
+        <errorModelInd>
+            <string name="s1">Erros no modelo</string>
+            <string name="s2"> :</string>
+            <string name="s3">Erros no modelo :</string>
+        </errorModelInd>
+        <compareModel>
+            <string name="s1">           Estimativa do resultado para cada algoritmo do Naive Bayes</string>
+            <string name="bar">=====================================================================================</string>
+            <string name="s2">N°     GaussianNB</string>
+            <string name="s3">BernoulliNB</string>
+            <string name="s4">MultinomialNB</string>
+            <string name="s5">ComplementNB</string>
+            <string name="s6">target</string>
+            <string name="space">     </string>
+            <string name="s7">ERROS:     </string>
+            <string name="s8">* Tamanho do vetor de teste: </string> 
+            <string name="s9">posições.</string>
+            <string name="s10">O valor passado é inconsistente com o tipo necessário, passe um número inteiro !!!</string>
+            <string name="s11">O último intervalo não pertence à lista de testes, insira um valor entre 0 e</string>
+        </compareModel>
+        <probabilitySucessModel>
+            <string name="s1">Probabilidade de acerto do modelo</string>
+            <string name="s2">Probabilidade de acerto do modelo:</string>
+        </probabilitySucessModel>
+        <probabilitySucessModelInd>
+            <string name="s1">Chance de acerto do modelo</string>
+            <string name="s2">O último intervalo não pertence à lista de testes, insira um valor entre 0 e </string>
+            <string name="s3">O intervalo passado tem inconsistências ou não existe na lista !!!</string>
+            <string name="s4">Chance de acerto do modelo: </string>
+        </probabilitySucessModelInd>
+        <generalReport>
+            <string name="s1">Relatório geral</string>
+        </generalReport>
+        <matrixConfusion>
+            <string name="s1">matrix de confusão</string>
+        </matrixConfusion>
+    </ModelNB>
+</resources>
